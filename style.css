@@ -1,0 +1,18 @@
+.oreo{
+    margin-top: 12em;
+    padding: 4px 15px;
+    font-size: larger;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.oreo button{
+    font-size: x-large;
+    background: linear-gradient(to right, teal, gray,hotpink);
+    border-radius: 5px;
+    border: 1px solid lightseagreen;
+}
+.oreo button:focus-within{
+    transition: 2s;
+    transform: scale(1.10);
+}
